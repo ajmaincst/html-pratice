@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parent-div{
+    background-color: aqua;
+    width: 1000px; /* fixed width*/
+    margin: 0 auto;
+}
+.child-div{
+    width: 250px;
+    background-color: blue;
+    float: left;
+    text-align: center;
+    color: white;
+}
+.child-div p{
+    color: red;
+}
